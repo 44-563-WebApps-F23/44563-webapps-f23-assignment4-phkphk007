@@ -1,0 +1,24 @@
+.speech {
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+.direction {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  background-color: lightgoldenrodyellow;
+}
+.direction:hover {
+  background-color: aqua;
+  color: red;
+}
+.nora {
+  color: #ffa8b6;
+}
+.linde {
+  color: #a28089;
+}
+.nurse {
+  color: #a28089;
+}
