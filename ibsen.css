@@ -14,11 +14,23 @@
   color: red;
 }
 .nora {
-  color: #ffa8b6;
+  color: #6c0c1c;
 }
 .linde {
-  color: #a28089;
+  color: #260ea9;
 }
 .nurse {
-  color: #a28089;
+  color: #d20bf0;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid #777;
+  padding: 0.5rem;
+  text-align: center;
+}
+tbody tr:nth-child(odd) {
+  background: #eee;
 }
