@@ -8,13 +8,13 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
   background-color: lightgoldenrodyellow;
+  width: fit-content;
 }
 .direction:hover {
   background-color: aqua;
   color: red;
 }
 .nora {
-  color: #6c0c1c;
 }
 .linde {
   color: #260ea9;
@@ -30,7 +30,13 @@ th {
   border: 1px solid #777;
   padding: 0.5rem;
   text-align: center;
+  margin: 1px;
 }
-tbody tr:nth-child(odd) {
+tbody tr:nth-child(even) {
   background: #eee;
+}
+.name:hover {
+  text-shadow: 7px 3px 1.5px rgb(12, 12, 12);
+  border: 1px solid chocolate;
+  width: fit-content;
 }
