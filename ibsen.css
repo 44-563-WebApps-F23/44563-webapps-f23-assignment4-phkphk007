@@ -40,3 +40,13 @@ tbody tr:nth-child(even) {
   border: 1px solid chocolate;
   width: fit-content;
 }
+.navbar {
+  background-color: lightblue;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+}
