@@ -1,3 +1,6 @@
+body {
+  background-color: antiquewhite;
+}
 .speech {
   font-size: 14px;
   font-family: "Courier New", Courier, monospace;
@@ -15,7 +18,7 @@
   color: red;
 }
 .nora {
-  color: black;
+  color: darkcyan;
 }
 .linde {
   color: #260ea9;
@@ -50,4 +53,14 @@ tbody tr:nth-child(even) {
 .navdiv {
   display: flex;
   align-items: center;
+}
+li {
+  padding: 5px;
+}
+ul {
+  list-style-type: none;
+}
+li:hover {
+  font-style: italic;
+  background-color: wheat;
 }
