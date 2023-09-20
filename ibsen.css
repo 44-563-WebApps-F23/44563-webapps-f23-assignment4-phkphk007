@@ -6,6 +6,11 @@ body {
   font-family: "Courier New", Courier, monospace;
   color: black;
 }
+.name {
+  background-color: antiquewhite;
+  display: block;
+  color: azure;
+}
 .direction {
   font-size: 18px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -63,4 +68,7 @@ ul {
 li:hover {
   font-style: italic;
   background-color: wheat;
+}
+img {
+  object-fit: inherit;
 }
